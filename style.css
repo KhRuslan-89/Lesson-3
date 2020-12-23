@@ -15,7 +15,6 @@ body {
     text-align: center;
     position: fixed;
     top: 0;
-    height: content-box;
     width: 100%;
     max-width: 1000px;
     background: #ffffff;
@@ -49,10 +48,8 @@ body {
 }
 .footer {
     clear: both;
-    height: content-box;
     width: 100%;
     max-width: 1000px;
-    /*padding: 10px;*/
     margin-top: 10px;
     border: 1px solid #000000;
     background: #cbccce;;
