@@ -15,12 +15,14 @@ body {
     text-align: center;
     position: fixed;
     top: 0;
-    height: 80px;
+    height: content-box;
     width: 100%;
     max-width: 1000px;
     background: #ffffff;
     margin: 0 auto;
     border: 1px solid #cbccce;
+    box-shadow: 2px 3px 10px #cbccce;
+
 }
 .sidebar-left {
     background: #edeef0;
@@ -46,7 +48,7 @@ body {
     height: 750px;
 }
 .footer {
-    clear: both!important;
+    clear: both;
     height: content-box;
     width: 100%;
     max-width: 1000px;
@@ -55,7 +57,42 @@ body {
     border: 1px solid #000000;
     background: #cbccce;;
 }
-h1, h2, h3 {
+h2, h3 {
     font-family: 'Georgia', sans-serif;
     color: indigo;
+}
+@import url(https://fonts.googleapis.com/css?family=Niconne);
+h1 {
+    font-family: 'Niconne', cursive;
+    font-size: 25px;
+    color: #e12527;
+    text-align: center;
+}
+h1:before, h1:after {
+    content: "\2746";
+    display: inline-block;
+    font-size: 30px;
+    color: #38afaa;
+    -webkit-animation: my 4s infinite alternate;
+    animation: my 4s infinite alternate;
+}
+h1:before {
+    margin-right: 0.5em;
+}
+h1:after {
+    margin-left: 0.5em;
+}
+@-webkit-keyframes my {
+    0%   {color: #2e2f92;}
+    25%  {color: #38afaa;}
+    50%  {color: #5b59a7;}
+    75%  {color: #f7b21c;}
+    100% {color: #e12527;}
+}
+@keyframes my {
+    0%   {color: #2e2f92;}
+    25%  {color: #38afaa;}
+    50%  {color: #5b59a7;}
+    75%  {color: #f7b21c;}
+    100% {color: #e12527;}
 }
