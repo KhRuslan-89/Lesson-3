@@ -1,80 +1,61 @@
 body {
-    background: burlywood;
-    color: #000000;
-    font-size: 12px;
-}
-.header {
-    position: fixed;
-    background: red;
-    border 2px solid indigo;
-    margin: 0;
+    background: #edeef0;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
     padding: 0;
+    }
+
+#wrap {
+    width: 1000px;
+    margin-top: 90px;
+    background: #edeef0;
 }
-.wrapper {
-     background: #FFFFFF;
-     margin:0;
-     overflow: hidden;
- }
+#header {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    max-width: 1000px;
+    background: #ffffff;
+    margin: 0 auto;
+    border: 1px solid #cbccce;
+}
 .sidebar-left {
-    background: gray;
+    background: #edeef0;
+    border: 1px solid #cbccce;
     float: left;
-   /* height: 1000px;
-    width: 150px;*/
+    padding: 20px;
+    width: 150px;
 }
 .content {
-    background: #d2d0d2;
-    /*height: 1000px;
-    width: 600px;*/
+    background: #ffffff;
+    border: 1px solid #cbccce;
+    margin: 15px auto;
+    padding: 10px;
+    overflow: hidden;
+    width: 55%;
 }
 .sidebar-right {
-     background: gray;
-     float: right;
-     /* height: 1000px;
-      width: 150px;*/
- }
-.footer {
-    background: #343434;
-    height: 100px;
-    width: 900px;
+    background: #ffffff;
+    border: 1px solid #cbccce;
+    float: right;
+    padding: 20px;
+    width: 150px;
+    height: 750px;
 }
-h1, h2 {
+.footer {
+    clear: both!important;
+    height: content-box;
+    width: 100%;
+    max-width: 1000px;
+    /*padding: 10px;*/
+    margin-top: 10px;
+    border: 1px solid #000000;
+    background: #cbccce;;
+}
+h1, h2, h3 {
     font-family: 'Georgia', sans-serif;
     color: indigo;
 }
-/*
-body {    background: bisque;}
-.title{ font-weight: bold}
-.font-styles{font-style: italic}
-!*div{display: inline;
-    background: red}*!
-.wrapper-bottom{
-    border: 1px solid green;
-    display: inline-block}
-.button{
-    background: ;
-    font-weight: bold;
-    display: inline-block;
-
-    !*size*!
-    width: 200px;
-    height: 50px;
-
-    !*position*!
-    !*position: absolute;*! !*static - по умолчанию браузера, fixed - зафиксировано*!
-    top: 20px;
-    right: 0;
-    bottom: 0;
-    left: 20px;
-    }*/
-/*
-.span-1{width: 50px;
-    display: inline-block;
-    margin-right: 20px;
-    !*padding-right: 20px;*!
-}
-.span-2{width: 150px;
-    display: inline-block;
-
-}
-.border{border: 1px solid red;
-}*/
